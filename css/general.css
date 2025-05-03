@@ -50,6 +50,7 @@
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
@@ -64,6 +65,10 @@
 
 .grid--center-v {
   align-items: center;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 strong {
